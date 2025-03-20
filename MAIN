@@ -7,3 +7,7 @@ git checkout  new-branch
 mkdir blog
 echo "Додавання першого файлу" > blog/index.js
 echo "Додавання другого файлу" > blog/index.html
+git add .
+git commit -m "Add all again"
+git remote add origin https://github.com/kkartoh/java1.git
+git push -u origin new-branch
