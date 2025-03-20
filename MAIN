@@ -1,0 +1,2 @@
+git init
+у .gitignore записується ігнорування .sass і папки: bin, admin, config.
