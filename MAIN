@@ -1,2 +1,9 @@
 git init
 у .gitignore записується ігнорування .sass і папки: bin, admin, config.
+git add .
+git commit -m "Add all files in commit"
+git branch new-branch
+git checkout  new-branch
+mkdir blog
+echo "Додавання першого файлу" > blog/index.js
+echo "Додавання другого файлу" > blog/index.html
